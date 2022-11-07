@@ -1,0 +1,48 @@
+@font-face {
+}
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: ;
+}
+
+@media screen and (max-width: 375px) {
+  .main__section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .navigation__section {
+    display: none;
+  }
+  .main__content__image {
+    background: center / contain no-repeat
+      url('/assets/images/image-web-3-mobile.jpg');
+    width: 375px;
+    height: 375px;
+    margin: 0;
+  }
+}
+
+@media screen and (min-width: 376px) {
+  .main__section {
+    display: flex;
+    justify-content: space-between;
+  }
+  .navigation__section__main_nav {
+    display: flex;
+    list-style-type: none;
+  }
+
+  .navigation__section__main_nav__li {
+    margin: 0 1rem;
+  }
+
+  .menu__section {
+    display: none;
+  }
+}
+
+.attribution {
+}
