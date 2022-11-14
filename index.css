@@ -119,6 +119,46 @@ body {
   .main__blog__section__posts__para {
     color: var(--dark-grayish-blue)
   }
+
+  .main__sidebar {
+    display: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 23rem;
+    background: var(--neutral-off-white);
+  }
+
+  .main__sidebar .open {
+    width: 12rem;
+  }
+
+  .main__sidebar__navigation__section__main_nav {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    height: 10rem;
+    margin: 2rem 0 0 1rem;
+    padding: 5rem 0 0 0;
+
+  }
+
+  .main__sidebar__navigation__section__main_nav .open {
+    width: 12rem;
+  }
+
+  .main__sidebar__menu__close {
+    position: fixed;
+    top: 0;
+    right: 7rem;
+    width: 2rem;
+    height: 2rem;
+  }
+
+  .main__sidebar__navigation__section__main_nav__li {
+    height: 20rem;
+  }
 }
 
 /* Desktop Version */
@@ -138,6 +178,12 @@ body {
   }
 
   .menu__section {
+    display: none;
+  }
+
+  .main__sidebar__menu__close,
+  .main__sidebar__navigation__section__main_nav,
+  .main__sidebar {
     display: none;
   }
 }
