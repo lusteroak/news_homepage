@@ -168,6 +168,16 @@ body {
     justify-content: space-between;
   }
 
+  .main__content {
+    display: flex;
+  }
+
+  .main__content__image {
+    background: center/100% no-repeat url('/assets/images/image-web-3-mobile.jpg');
+    height: 350px;
+    margin: 0;
+  }
+
   .navigation__section__main_nav {
     display: flex;
     list-style-type: none;
